@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {   
-        stage('sprint1 branch') { 
+        stage('sprint1 branch' for testing) { 
             steps { 
                sh 'echo "This is sprint1 branch"' 
             }
